@@ -1,0 +1,40 @@
+.kolloBox-footer {
+  padding-top: 5%;
+  border-top: 1px solid rgba(223,227,255,.5);
+  margin-top: 80px;
+
+  .footer-header {
+    font-weight: 700;
+    color: var(--color-primary);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .other-info {
+    margin-top: 15px;
+  }
+
+  .footer-download {
+  }
+
+  .footer-contact--information {
+    margin: 4.3rem 0;
+  }
+  &--menu {
+    margin-top: 20px;
+    color: var(--color-black);
+    li {
+      margin-bottom: 20px;
+      font-size: 12.25px;
+      a {
+        color: inherit;
+      }
+    }
+  }
+  &--conditions {
+    p {
+      font-size: 11px;
+      
+    }
+  }
+}

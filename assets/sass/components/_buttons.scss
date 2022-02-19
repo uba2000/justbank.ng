@@ -1,0 +1,35 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.9rem 1.8rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid  var(--color-primary);
+  text-align: center;
+
+  &-primary {
+    background-color: var(--color-primary) !important;
+    color: var(--color-white) !important;
+
+    &:hover {
+      background-color: var(--color-primary) !important;
+      color: var(--color-white) !important;
+      border-color: var(--color-white) !important;
+    }
+  }
+
+  &-secondary {
+    border-color: rgba(224, 221, 221, 0.5);
+		background-color: var(--color-primary-light);
+		color: var(--color-primary);
+
+    &:hover {
+      border-color: rgba(224, 221, 221, 0.5);
+      background-color: var(--color-primary-light);
+      color: var(--color-primary);
+    }
+  }
+}

@@ -1,0 +1,24 @@
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-white-2: #ffe8e8;
+    --color-black: #000000;
+    --color-black-2: rgb(36, 36, 36);
+    --color-black-3: rgba(16, 16, 16, 0.72);
+    --color-primary: #ed1c24;
+    --color-secondary: #ed1c24;
+    --color-primary-light: #fff0f0;
+    --color-orange: #f8b74f;
+    --color-grey-1: #a5a5a5;
+    --color-grey-2: #f9f9f9;
+    --color-grey-3: #9d9d9d;
+}
+
+$bp-largest: 75em; //1200px
+$bp-larger: 68.75em; //1100px
+$bp-large: 64em; //1024px
+$bp-medium: 56.25em; //900px
+$bp-small: 50em; //800px
+$bp-smaller: 37.5em; //600px
+$bp-smallest: 31.25em; //500px
+
+$header-spacing: 62.4px;
